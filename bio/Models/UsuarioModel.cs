@@ -1,4 +1,4 @@
-﻿namespace rede_social.models
+﻿namespace bio.models
 {
     public class UsuarioModel
     {
