@@ -18,6 +18,7 @@ namespace bio.Data
             .HasOne(a => a.UsuarioSeguidor)
             .WithMany(u => u.Amigos)
             .HasForeignKey(a => a.SeguidorId)
+            .HasForeignKey(a => a.SeguidorId)
             .OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<AmigosModel>()
             .HasOne(a => a.UsuarioSeguido)

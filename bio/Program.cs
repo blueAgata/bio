@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using rede_social.Data;
+using bio.Data;
 
 
 namespace bio

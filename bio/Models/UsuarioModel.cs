@@ -11,6 +11,6 @@
         public string biografia { get; set; }
         public string senha { get; set; }
         public string email { get; set; }
-
+        public virtual List<AmigosModel> Amigos { get; set; }
     }
 }
